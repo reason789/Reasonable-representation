@@ -219,3 +219,19 @@ for (i = 0; i < s1.length; i++) {
     document.execCommand("copy");
  
 }
+
+/////////////////////////////////////////////////////
+
+
+function openSettings(){
+    window.open("settings.html","_self");
+
+   //var a = document.getElementById('a').value = "~";
+
+}
+
+function openHome(){
+    window.open("index.html","_self");
+}
+
+
