@@ -9,10 +9,26 @@
     <title>Document</title>
 </head>
 <body>
+  
 
     <div class="container">
+      <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4 ">
+            <button type="button" class="btn btn-outline-primary m-3 " >Home</button>
+            <button onclick="openSettings()" type="button" class="btn btn-outline-primary m-3 " >Settings</button>
+            <button type="button" class="btn btn-outline-primary m-3 " >Signup</button>
+            <button type="button" class="btn btn-outline-primary m-3 " >Login</button>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+      </div>
         <div>
-          <div class="p-3 mb-2 bg-info bg-gradient mainTitle"><h1>Reasonable Representation</h1></div>
+          <div class="p-3 mb-2 bg-info bg-gradient mainTitle"><h1>Reasonable Representaion</h1></div>
         </div>
 
         <button type="button" class="btn btn-outline-primary mt-3 " disabled>Encoder > Decoder</button>
